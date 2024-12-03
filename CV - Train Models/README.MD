@@ -13,7 +13,7 @@ The user can choose between several model backbones (underlying framework) and m
 
 If autotuning is selected, the final model architecture and weights are saved, and training is resumed with an updated learning rate. That is, the new learning rate reflects the characteristics of the learning rate policy used during autotuning. If autotuning is not selected, a model is trained using the criteria listed in the input parameters.  
 
-The step creates an output table that contains reference information needed for the CV - Save Model and CV Model Scoring custom steps. The trained model and other important files are stored in the project folder (see "General Setup Details" below for more information).
+The step creates an output table that contains reference information needed for the CV - Save Model and CV - Score Images custom steps. The trained model and other important files are stored in the project folder (see "General Setup Details" below for more information).
 
 The step saves the log information into the project folder location specified by the user.  The project folder location must sit on the SAS Server and must not reside in the SAS Content folder.
 
